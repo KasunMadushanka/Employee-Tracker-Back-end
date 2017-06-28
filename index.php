@@ -1,7 +1,7 @@
 <?php
 require 'db.php';
 
-$username=$_POST["username"];
+$username='F';
 //$password=$_GET["password"];
 
 //echo $username;
