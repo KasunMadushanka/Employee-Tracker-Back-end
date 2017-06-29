@@ -7,9 +7,10 @@ $username=urldecode($_POST['password']);
 $sql="SELECT* FROM user where username=$username";
 $result=mysqli_query($con,$sql);
 if (mysqli_num_rows($result)>0) {
-    echo 1;
+    echo $username;
 }else{
-    echo 2;
+    echo $username." ".$password;
+
 }
 
 ?>
