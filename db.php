@@ -26,8 +26,8 @@ if (!$con) {
 }
 
 
-echo "host" .$connectstr_dbhost;
-echo "username ".$connectstr_dbusername;
-echo "password ".$connectstr_dbpassword;
+//echo "host" .$connectstr_dbhost;
+//echo "username ".$connectstr_dbusername;
+//echo "password ".$connectstr_dbpassword;
 
 ?>
