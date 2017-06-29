@@ -2,9 +2,7 @@
 require 'db.php';
 
 $username=urldecode($_POST['username']);
-//$password=$_GET["password"];
-
-//echo $username;
+$username=urldecode($_POST['password']);
 
 $sql="INSERT INTO user (firstName, lastName, email,password) VALUES ('$username', 'admin','4g','4g')";
    if (mysqli_query($con,$sql)) {
