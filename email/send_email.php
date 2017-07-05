@@ -12,7 +12,7 @@ $mail->SMTPAuth = true;
 $mail->Username = 'asyouwish077@gmail.com';
 $mail->Password = 'asyouwish';
 $mail->SMTPSecure = 'tls';
-$mail->Port = 587;
+$mail->Port = 465;
 
 
 
