@@ -2,7 +2,7 @@
 
 require 'PHPMailerAutoload.php';
 
-$receipient ="asyouwish0550@gmail.com";
+$receipient ="asyouwish055@gmail.com";
 
 $mail = new PHPMailer;
 $mail->SMTPDebug = 0;
