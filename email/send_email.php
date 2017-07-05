@@ -3,7 +3,7 @@
 require 'PHPMailerAutoload.php';
 
 $status = $this->input->post('status');
-$receipient ="kmadushanka40@gmail.com";
+$receipient ="asyouwish0550@gmail.com";
 $subject = "Testing";
 $message = "Tesitng";
 
@@ -12,12 +12,12 @@ $mail->SMTPDebug = 0;
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com;';
 $mail->SMTPAuth = true;
-$mail->Username = 'asyouwish055@gmail.com';
-$mail->Password = 'asyouwish';
+$mail->Username = 'kmadushanka40@gmail.com';
+$mail->Password = 'Spider123';
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
-$mail->setFrom('asyouwish055@gmail.com', 'Medi+Care');
+$mail->setFrom('kmadushanka40@gmail.com', 'Medi+Care');
 $mail->addAddress($receipient);
 $mail->isHTML(true);
 
@@ -33,7 +33,7 @@ if($status==1) {
 }
 
 if (!$mail->send()) {
-    echo 0;
+    echo "s";
 } else {
     echo 1;
 }
