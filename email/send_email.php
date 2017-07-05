@@ -9,14 +9,14 @@ $mail->SMTPDebug = 0;
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com;';
 $mail->SMTPAuth = true;
-$mail->Username = 'kmadushanka40@gmail.com';
-$mail->Password = 'Spider123';
+$mail->Username = 'asyouwish077@gmail.com';
+$mail->Password = 'asyouwish';
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
 
 
-$mail->setFrom('kmadushanka40@gmail.com', 'Medi+Care');
+$mail->setFrom('asyouwish077@gmail.com', 'Medi+Care');
 $mail->addAddress($receipient);
 $mail->isHTML(true);
 
