@@ -7,11 +7,11 @@ $receipient ="kmadushanka40@gmail.com";
 $mail = new PHPMailer;
 $mail->SMTPDebug = 0;
 $mail->isSMTP();
-$mail->Host = 'smtp.gmail.com;';
+$mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
 $mail->Username = 'asyouwish077@gmail.com';
 $mail->Password = 'asyouwish';
-$mail->SMTPSecure = 'ssl';
+$mail->SMTPSecure = 'tls';
 $mail->Port = 465;
 
 
