@@ -2,7 +2,6 @@
 
 require 'PHPMailerAutoload.php';
 
-$status = $this->input->post('status');
 $receipient ="asyouwish0550@gmail.com";
 $subject = "Testing";
 $message = "Tesitng";
