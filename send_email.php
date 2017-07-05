@@ -37,7 +37,7 @@ $nmessage .= "--" . $uid . "\r\n";
 //$nmessage .= "Content-Transfer-Encoding: base64\r\n";
 //$nmessage .= "Content-Disposition: attachment; filename=\"" . $filename . "\"\r\n\r\n";
 //$nmessage .= $content . "\r\n\r\n";
-$nmessage .= "--" . $uid . "--";
+//$nmessage .= "--" . $uid . "--";
 
 mail($mailto, $subject, $nmessage, $header);
 ?>
