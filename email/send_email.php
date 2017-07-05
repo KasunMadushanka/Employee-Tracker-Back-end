@@ -17,6 +17,8 @@ $mail->Password = 'Spider123';
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
+echo "sc";
+
 $mail->setFrom('kmadushanka40@gmail.com', 'Medi+Care');
 $mail->addAddress($receipient);
 $mail->isHTML(true);
