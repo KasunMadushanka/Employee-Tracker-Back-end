@@ -1,5 +1,5 @@
 <?php
-require 'db.php';
+require '../db1.php';
 
 $firstName='ii';//$_POST['firstName'];
 $lastName='y'//$_POST['lastName'];

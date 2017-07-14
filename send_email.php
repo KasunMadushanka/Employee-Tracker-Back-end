@@ -12,7 +12,7 @@ $subject = "Test";
 $message = "Hello";
 
 ini_set('SMTP','smtp.gmail.com');
-ini_set('smtp_port',465);
+ini_set('smtp_port',587);
 //$path = "";
 //$filename = "";
 
